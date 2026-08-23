@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'self'" />
+  <title>AI Signboard Prompt Generator</title>
+  <!-- panel.css nằm trong <head> nên trình duyệt chặn hiển thị trang cho
+       tới khi tải xong (render-blocking mặc định của thẻ <link>), nhờ đó
+       renderer.js không còn cần cơ chế "chờ CSS sẵn sàng" thủ công như ở
+       bản extension (nơi CSS được tiêm động vào trang người khác). -->
+  <link rel="stylesheet" href="panel.css" />
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Thứ tự nạp phải giữ nguyên: i18n.js và data.js định nghĩa các hằng
+       số/hàm toàn cục (t, LANGUAGES, BUSINESS_TYPES, v.v.) mà renderer.js
+       sử dụng ngay khi chạy. -->
+  <script src="i18n.js"></script>
+  <script src="data.js"></script>
+  <script src="renderer.js"></script>
+</body>
+</html>

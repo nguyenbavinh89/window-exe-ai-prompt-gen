@@ -1,0 +1,67 @@
+{
+  "name": "ai-signboard-prompt-generator",
+  "productName": "AI Signboard Prompt Generator",
+  "version": "1.0.0",
+  "description": "Generate AI image prompts for advertising signboard design, supports 7 UI languages.",
+  "main": "main.js",
+  "author": "Nguyen Ba Vinh",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist:test": "electron-builder --win nsis --publish never",
+    "dist:store": "electron-builder --win appx --publish never"
+  },
+  "devDependencies": {
+    "electron": "^33.4.11",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.quangcaoktd.aisignboard",
+    "productName": "AI Signboard Prompt Generator",
+    "copyright": "Copyright (c) Quoc Dang Signage",
+    "asar": true,
+    "files": [
+      "**/*",
+      "!*.md"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "appx": {
+      "applicationId": "AISignboardPromptGenerator",
+      "identityName": "NguyenBaVinh.AISignboardPromptGenerator",
+      "publisher": "CN=8FF93BBB-792E-4520-9CD2-90324C9D6532",
+      "publisherDisplayName": "Nguyen Ba Vinh",
+      "displayName": "AI Signboard Prompt Generator",
+      "backgroundColor": "#14161c",
+      "languages": [
+        "en-US",
+        "vi-VN",
+        "ar-SA",
+        "zh-CN",
+        "fr-FR",
+        "ru-RU",
+        "es-ES"
+      ],
+      "showNameOnTiles": true
+    }
+  }
+}

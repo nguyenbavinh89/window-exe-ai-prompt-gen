@@ -1,0 +1,40 @@
+name: Build Windows Store package (MSIX)
+
+# Cách dùng:
+# 1. Đẩy (push) toàn bộ thư mục này lên một repo GitHub (repo private cũng chạy được).
+# 2. Vào tab "Actions" của repo, chạy workflow này (nút "Run workflow"),
+#    hoặc để tự chạy mỗi khi push lên nhánh main.
+# 3. Sau khi chạy xong, mở lần chạy đó, mục "Artifacts" ở cuối trang sẽ có
+#    file .msix để tải về và nộp lên Partner Center.
+#
+# QUAN TRỌNG: trước khi chạy, phải sửa 3 giá trị REPLACE_WITH_... trong
+# package.json (phần "build.appx") bằng đúng Package Identity lấy từ
+# Partner Center (xem HUONG-DAN-NOP-STORE.md). Nếu chưa sửa, bước build
+# vẫn chạy được nhưng file .msix sẽ bị Store từ chối vì sai identity.
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+jobs:
+  build-msix:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Cai dependencies
+        run: npm ci
+
+      - name: Build .msix cho Microsoft Store
+        run: npm run dist:store
+
+      - name: Upload package
+        uses: actions/upload-artifact@v4
+        with:
+          name: msix-package
+          path: dist/*.appx
