@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>Manual</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Cong ty TNHH Quang Cao Noi That Quoc Dang</Company_Name>
+		<Address_1>So 6 ngach 85/30 Linh Nam</Address_1>
+		<Address_2 />
+		<City_Town>Ha Noi</City_Town>
+		<State_Province />
+		<Zip_Postal_Code />
+		<Country>Vietnam</Country>
+		<Company_WebSite_URL>https://quangcaoktd.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name />
+			<Author_Last_Name />
+			<Author_Email>support@quangcaoktd.com</Author_Email>
+			<Contact_First_Name />
+			<Contact_Last_Name />
+			<Contact_Email>support@quangcaoktd.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email />
+			<Support_Email>support@quangcaoktd.com</Support_Email>
+			<General_Email>support@quangcaoktd.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>AI Signboard Prompt Generator</Program_Name>
+		<Program_Version>1.0.0</Program_Version>
+		<Program_Release_Month>09</Program_Release_Month>
+		<Program_Release_Day>21</Program_Release_Day>
+		<Program_Release_Year>2026</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Windows 10, Windows 11</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<File_Info>
+			<File_Size_Bytes>81555431</File_Size_Bytes>
+			<File_Size_K>79645</File_Size_K>
+			<File_Size_MB>77.79</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On />
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+		<Program_Change_Info>Initial public release.</Program_Change_Info>
+		<Program_Category_Class>Business::Tools</Program_Category_Class>
+		<Program_Specific_Category>Business::Tools &amp; Utilities</Program_Specific_Category>
+		<Program_System_Requirements>Windows 10 or 11 (64-bit), internet connection</Program_System_Requirements>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>ai signboard generator, bien quang cao, signboard design ai, storefront design generator, ai prompt generator, bien hieu quang cao, bien alu, chu noi, bien led, in bat quang cao, bien vay, quang cao quoc dang, signage mockup ai, shop sign design tool</Keywords>
+			<Char_Desc_45>AI signboard and storefront prompt generator</Char_Desc_45>
+			<Char_Desc_80>Create AI prompts for signboard and storefront design concepts instantly</Char_Desc_80>
+			<Char_Desc_250>AI Signboard Prompt Generator turns your business type, sign style, and storefront width into a ready to use AI image prompt for signboard and storefront design concepts. Works with ChatGPT, Gemini, Claude, Grok, and Copilot. Free desktop app by Quang Cao Quoc Dang.</Char_Desc_250>
+			<Char_Desc_450>AI Signboard Prompt Generator is a free Windows desktop app that helps shop owners, designers, and signage companies create detailed AI image prompts for signboard, storefront, and shopfront design concepts. Choose your business type, sign type, style, and color tone, or upload a real storefront photo, then copy the generated prompt straight into ChatGPT, Gemini, Claude, Grok, or Copilot to preview a new signboard design in seconds. Built by Quang Cao Quoc Dang, a Hanoi signboard and interior advertising company.</Char_Desc_450>
+			<Char_Desc_2000>AI Signboard Prompt Generator is a free Windows desktop application that helps shop owners, designers, marketers, and signage companies quickly generate detailed AI image prompts for signboard, storefront, and shopfront design concepts.
+
+Instead of trying to describe a new signboard design in your own words, simply select your business type, sign type (such as bien alu, chu noi, bien led, bien vay, hop den, or in bat), design style, storefront width, and color tone. The app instantly builds a clear, detailed prompt ready to paste into any AI image generator, including ChatGPT, Gemini, Claude, Grok, and Microsoft Copilot, so you can preview your new signboard design in seconds.
+
+Key features:
+- Instantly generate AI prompts for signboard and storefront design concepts
+- Wide range of business types and signboard styles to choose from
+- Optional storefront photo upload, so the AI can preview the new sign directly on your real shopfront
+- Works with ChatGPT, Gemini, Claude, Grok, and Copilot
+- Supports 7 interface languages: English, Vietnamese, Arabic, Chinese, French, Russian, and Spanish
+- One click copy prompt, copy photo, or copy both together
+- Completely free, no login required
+
+This tool is ideal for shop owners planning a new storefront sign, interior designers, advertising agencies, and anyone in the signage industry who wants a fast way to visualize signboard concepts, from bien quang cao alumi and chu noi to bien led and bien vay, before committing to a final design.
+
+AI Signboard Prompt Generator is developed by Quang Cao Quoc Dang (Cong ty TNHH Quang Cao Noi That Quoc Dang), a signage and interior advertising company based in Hanoi, Vietnam, specializing in bien quang cao, bien hieu, chu noi, bien alu, bien led, bien vay, and in bat quang cao. Visit quangcaoktd.com to see real signboard projects and get a quote for your own shop sign.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>https://quangcaoktd.com/ai-signboard-prompt-generator/</Application_Info_URL>
+			<Application_Order_URL />
+			<Application_Screenshot_URL />
+			<Application_Icon_URL>https://raw.githubusercontent.com/nguyenbavinh89/window-exe-ai-prompt-gen/main/app-tile-icon-300x300.png</Application_Icon_URL>
+			<Application_XML_File_URL />
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>https://github.com/nguyenbavinh89/window-exe-ai-prompt-gen/releases/download/v1.0.0/AI-Signboard-Prompt-Generator-Setup-1.0.0.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>Allowed to distribute freely and without restriction, provided no fee is charged and this PAD file and program archive remain unmodified.</Distribution_Permissions>
+		<EULA />
+	</Permissions>
+</XML_DIZ_INFO>
